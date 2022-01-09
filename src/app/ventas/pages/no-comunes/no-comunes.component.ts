@@ -70,7 +70,7 @@ export class NoComunesComponent {
 
 
   //Asyn Pipe
-  miObservable = interval(1000);
+  miObservable = interval(5000);
 
   valorPromesa = new Promise( (resolve, reject) => {
 
